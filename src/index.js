@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
+
+import ScrollElement from './components/scrollElement';
+import './components/styles.css';
+
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ScrollElement />
   </React.StrictMode>,
   document.getElementById('root')
 );

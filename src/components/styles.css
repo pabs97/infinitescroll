@@ -1,0 +1,23 @@
+#root {
+  /* display: flex; */
+}
+
+.scrollArea {
+  left: 50%;
+  /* top: 50%; */
+  transform: translate(-50%, 0);
+  position: absolute;
+}
+
+
+.article {
+  width: 400px;
+  height: 400px;
+  margin: 20px 0;
+  background: lightblue;
+}
+
+.sentinel {
+  height: 100px;
+  display: none;
+}
